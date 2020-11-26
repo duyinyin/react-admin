@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "7.12.3",
+    "@babel/core": "^7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
     "@svgr/webpack": "5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -54,10 +54,10 @@
     "react-dev-utils": "^11.0.1",
     "react-dom": "^17.0.1",
     "react-refresh": "^0.8.3",
-    "resolve": "1.18.1",
+    "react-router-dom": "^5.2.0",
+    "resolve": "^1.18.1",
     "resolve-url-loader": "^3.1.2",
-    "sass-loader": "8.0.2",
-    "semver": "7.3.2",
+    "semver": "^7.3.2",
     "style-loader": "1.3.0",
     "terser-webpack-plugin": "4.2.3",
     "ts-pnp": "1.2.0",
@@ -147,5 +147,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^8.0.2"
   }
 }
