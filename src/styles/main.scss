@@ -1,0 +1,19 @@
+//全局样式
+@import './sassConfig.scss';
+@import './normalize.scss';
+body {
+    background-color: #001529 !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0 !important;
+}
